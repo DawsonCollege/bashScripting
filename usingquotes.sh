@@ -1,13 +1,12 @@
 #!/bin/bash
 # pmc
-# feb 27 2014
+# feb 10 2015
 # demo the use of quotes
-# and escaping
+# and escape character \
 
 # double quotes: bash will evaluate the contents 
-# back slash tells bash do not evaluate the next character
+# back slash (escape) tells bash do not evaluate the next character
 echo " arg count in \$# $# \$1 is $1 $# $$" 
 
 # single quotes: bash will treat everything as a character
-echo " arg count in \$# $# \$1 is $1 $# $$" 
-
+echo ' arg count in \$# $# \$1 is $1 $# $$' 
